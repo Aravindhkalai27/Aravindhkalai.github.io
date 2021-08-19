@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+    background-color: azure;
+}
+
+
+
+.nav-bar{
+
+  display: flex;
+  justify-content: flex-start;
+  background-color: azure;
+}
+
+.nav-bar-nav{
+
+list-style-type: none;
+margin: 0;
+padding: 10px;
+overflow: hidden;
+background-color: azure;
+margin-left: 20px;
+justify-content: center;
+}
+ul.nav-bar-nav li {
+  float: left;
+
+}
+
+ul.nav-bar-nav li a {
+  color: black;
+  display: inline-block;
+  text-align: center;
+  padding: 8px 14px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+ul.nav-bar-nav li a:hover {
+  background-color:#007FFF;
+  color: white;
+  border-radius: 10px;
+}
+
+    
+  .main-heading {
+    font-family: "Raleway", cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 20px;
+    margin-top: 1.875rem;
+    text-align: center;
+  }
+
+
+  .customer-table {
+    padding: 5px;
+    padding-left: 20%;
+  }
+
+
+  table{
+     margin: auto;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+
+  table th, td {
+    border:1px solid !important;
+    width: 10% !important;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    border-collapse: collapse;
+  }
+
+
+
+table tbody tr {
+    background-color: white !important;
+    color: #000 !important;
+
+  }
+  
+  th {
+    font-family: "Raleway", cursive;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    border-radius:0px !important ;
+    background-color:#007FFF !important ;
+  }
+
+  td {
+    color: black;
+    font-weight: bolder;
+    background-color: azure;
+    padding: 5px 0 0 0 !important;
+  }
+
+
+
+
+  .button {
+    text-align: center;
+    padding-bottom: 5%;
+  padding-top: 5px !important;
+
+  }
+
+  .my-btn {
+    margin-left: 0%;
+    margin-bottom: -3%;
+    font-weight: bolder;
+  }
+
+
+  .footers{
+
+    background-color: black !important;
+    color: white !important ;
+    padding: 25px !important;
+    font-family: sans-serif !important;
+    text-align: center !important;
+
+
+}
+
+  .btn-outline-info{
+
+  background-color: #007FFF !important;
+  color: white !important;
+  border: none !important;
+
+  }
+
+  .btn-outline-info:hover{
+
+    background-color: white !important;
+    color: #007FFF !important;
+  }
+
+  .btn-secondary{
+
+    background-color: red !important;
+    color: white !important;
+    font-weight: bolder !important; 
+   }
+
+  .btn-success{
+
+    background-color: green !important;
+    color: white !important;
+    margin-left: 10px !important;
+    font-weight: bolder !important;
+
+  }
+
+
+  .btn-danger{
+
+    background-color: red !important;
+    color: white !important;
+    font-weight: bolder !important; 
+   }
+
+
+   .send-money-txt{
+
+    background-color: #007FFF !important;
+  color: white !important;
+  border: 1px solid #007FFF;
+  border-radius: 5px !important;
+  padding: 5px;
+  font-weight: bold;
+
+   }
+
+   .transaction-history{
+
+      background-color: green !important;
+      color: white !important;
+      margin-left: 10px !important;
+      font-weight: bolder !important;
+      padding: 5px;
+      border: 1px solid green ;
+      border-radius: 5px;
+
+  
+   }
+
+   .footer{
+margin-top: 10px;
+
+   }
+    
+.footer p{
+  color: black;
+  background-color: azure;
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+  
+.des{
+
+  color: #000;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px 0 0 0;
+
+}
+
+.logo{
+
+  height: 67px;
+  background-color: #007FFF;
+}
